@@ -20,4 +20,22 @@ echo "Отняв из $x i $y получим = $diff";
 echo "<br />";
 echo "ostatok pri dilenii $x i $z budet = $ostatok";
 
+$q = 400;
+$q /=10;
 
+echo "<br />";
+$q = $q + 1;
+echo $q;
+
+echo "<br />";
+$q += 1;
+echo $q;
+
+echo "<br />";
+$q ++;
+echo $q;
+
+echo "<br />";
+$q--;
+echo $q;
+?>
