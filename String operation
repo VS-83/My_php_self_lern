@@ -1,0 +1,9 @@
+<?php
+
+$sting_1 = "<b>\"pervaya stoka\"<b /> <input type=";
+$string_2 = '<i>"Vtoraya stroka"<i />';
+$sumstrok = $sting_1 . $string_2;
+echo $sting_1 . "<br /> " . $string_2;
+//echo $sumstrok;
+
+?>
