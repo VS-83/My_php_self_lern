@@ -1,0 +1,48 @@
+<?php   
+
+/*Цыклы*/
+$x = 10;
+$y = 5;
+
+if ($x == $y && $x !=12 && $y ==5 && ($x +5 )== 15){
+
+
+     echo "Ura";}
+
+elseif ($x ==15 || $y != 7) {
+	
+	$num = 5;
+		echo "num" . $num;
+
+}
+else {
+
+	echo "<br />";
+	echo "Vse gud";
+}
+
+
+
+$a = 7;
+$b = "Hello";
+
+switch ($a) {
+
+	case "Hello" : echo "<br /> string";break;
+	case 7 : echo "<br />int 12";
+	case 12 : echo "<br /> integer";break;
+	case "Hello": echo "<br />sit is tring";break;
+	default: echo "<br />it is string";
+}
+
+
+
+
+
+
+for ($i = 0; $i < 10; $i ++){
+
+	echo "<br /> Это цыкл $i <br />";
+}
+
+?>
